@@ -18,6 +18,9 @@ st.set_page_config(page_title="Exoplanet Discovery",
                    page_icon="🚀",
                    layout="wide",
                    initial_sidebar_state="expanded")
+[theme]
+base="dark"
+primaryColor="purple"
 
 
 #############
