@@ -40,7 +40,7 @@ option.markdown(
     """)
 show = option.checkbox('Montre moi la data')
 
-expander = st.sidebar.beta_expander("Sources")
+expander = st.sidebar.expander("Sources")
 expander.markdown(
     """
     __Les bases des données utilisées__ : 
