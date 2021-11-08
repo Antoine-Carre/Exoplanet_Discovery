@@ -32,7 +32,7 @@ categorie = st.sidebar.radio("Categories", ("Accueil", "Observer les Exoplanète
                                             "L'IA à l'aide des Astrophysicien"))
 
 st.sidebar.title(' ')
-option = st.sidebar.beta_expander("Options")
+option = st.sidebar.expander("Options")
 option.markdown(
     """
     L'option _Montre moi la data_ affichera les données 
