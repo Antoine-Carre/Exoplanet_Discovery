@@ -282,8 +282,7 @@ elif categorie == "Les Exoplanètes habitables":
     fig.update_layout(title="<b>Où sont localisées les planètes habitables ?</b>",
                       margin=dict(l=10, r=10, b=10, t=40))
 
-    col1, col2 = st.columns(2)
-    _columns([3, 1])
+    col1, col2 = st.columns([3, 1])
     with col1:
         st.plotly_chart(fig, use_container_width=True)
     with col2:
